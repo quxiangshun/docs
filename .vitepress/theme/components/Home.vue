@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-// import NewsLetter from './NewsLetter.vue'
+import NewsLetter from './NewsLetter.vue'
 import { load, data, base } from './sponsors'
 import SponsorsGroup from './SponsorsGroup.vue'
 
@@ -11,7 +11,7 @@ onMounted(load)
   <section id="hero">
     <img id="uwu" alt="Vue.js Kawaii Logo by @icarusgkx" />
     <h1 class="tagline">
-      <span class="accent">想顺</span>
+      <span class="accent">胡说八道</span>
     </h1>
     <p class="description">
       An approachable, performant and versatile framework for building web
@@ -29,7 +29,7 @@ onMounted(load)
     <h2>Platinum Sponsors</h2>
     <SponsorsGroup tier="platinum" placement="landing" />
   </section>
-  <!-- <NewsLetter /> -->
+   <NewsLetter />
 </template>
 
 <style scoped>

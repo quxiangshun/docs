@@ -72,9 +72,6 @@ export default defineConfigWithTheme<ThemeConfig>({
   sitemap: {
     hostname: 'https://vuejs.org'
   },
-  lang: 'zh-CN',
-  title: '想顺1111111111111',
-  description: '嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻',
   srcDir: 'src',
 
   head: [
